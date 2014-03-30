@@ -164,8 +164,7 @@ void femtoSystemBoot(const ble_msg_system_boot_evt_t *msg) {
       0x02,                                     // Field length
       
       BGLIB_GAP_AD_TYPE_FLAGS,                  // Field type (0x01)
-      BGLIB_GAP_AD_FLAG_GENERAL_DISCOVERABLE |  // Data (0x02 | 0x04 = 0x06)
-        BGLIB_GAP_AD_FLAG_BREDR_NOT_SUPPORTED, 
+      0x06, // data (0x02 | 0x04 = 0x06, general discoverable + BLE only, no BR+EDR) 
         
       0x11,                                     // Field length
       
