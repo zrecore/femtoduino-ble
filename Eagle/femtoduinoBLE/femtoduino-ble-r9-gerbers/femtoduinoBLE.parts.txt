@@ -1,0 +1,38 @@
+Partlist
+
+Exported from femtoduinoBLE.brd at 5/10/14 7:51 PM
+
+EAGLE Version 6.5.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part       Value                 Package                     Position (mm)         Orientation
+
+C1         10uF                  1206                        (15.7 5.6)            R180
+C2         10uF                  1206                        (15.7 10.6)           R0
+C3         0.1uF                 0402                        (29 12.6)             MR90
+C4         0.1uF                 0402                        (14.5 12.6)           R180
+C5         0.1uF                 0402                        (20.3 12)             MR90
+C6         1uF                   0402                        (26.4668 12.6)        MR270
+C7         0.1uF                 0402                        (18 8.1)              R270
+C8         1uF                   0402                        (5.8 3.4)             R90
+C9         1uF                   0402                        (7 3.4)               R90
+C10        1uF                   0402                        (8.3 3.4)             R90
+C11        0.47uF                0402                        (10.2 4.8)            MR270
+C14        0.1uF                 0402                        (8.4 7.3)             R0
+C15        0.1uF                 0402                        (8.4 8.6)             R0
+C16        0.1uF                 0402                        (8.4 10.2)            R0
+C17        0.1uF                 0402                        (8.4 11.5)            R0
+FB1        1K OHM                0603                        (11.7 8.1)            R90
+LED_BLUE   Blue                  0603                        (20.7 11.6)           R180
+LED_YELLOW Yellow                0603                        (19.4 11.6)           R180
+MC         ATMEGA32U4QFN_1:1     QFN-44 (QFN-EP)             (27.21 7.66)          R270
+R2         330                   0402                        (17.2 12.6)           R180
+R3         10K                   0402                        (19.3 8.1)            R270
+R4         22(TOL 5%)            0402                        (1.8 14.3)            R0
+R5         22(TOL 5%)            0402                        (5.5 14.3)            R0
+R9         330                   0402                        (22 12)               MR270
+U$1        USB_MICROB            USB_MICROB_PACKAGE          (4.6 7.9)             R270
+U$2        16MHz                 CSTCE16M0V51-RO_PACKAGE     (19.4 5.2)            R270
+U$4        3V3                   LDO_REGULATOR               (15.2 8.1)            R270
+U$12       BLE113-A              BLE113-A                    (0.2 16.5)            MR180
